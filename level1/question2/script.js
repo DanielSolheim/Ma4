@@ -29,10 +29,10 @@ if (request.status >= 200 && request.status < 400){
     const p = document.createElement('p'); // lag en p
    p.textContent = main.title;// ha titlene til json inni p
 
-   container.appendChild(card);
+   container.appendChild(card); // card blir child av container
 
-   card.appendChild(h1);
-   card.appendChild(p);
+   card.appendChild(h1); // h1 blir child av card
+   card.appendChild(p);// p blir child av card
   });
 }
 
